@@ -1,0 +1,24 @@
+<style>
+body {
+    /*background-color: Seashell;*/
+    background-color: Black;
+}
+
+.main {
+	/*font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;*/
+	font-family: "Courier New", Courier, monospace;
+	color: white;
+}
+</style>
+
+<body>
+    <div class="main">
+        <h1 style="">Chicago Tribune Archive - URL2JPG</h1>
+        <a style="font-size: 22px; color:white;"  href="javascript:(function(){
+        	var originPATH = window.location.pathname.split('/');
+        	var targetPATH = originPATH.splice(originPATH.lastIndexOf('page')+2,2,'xxlarge.jpg');
+        	console.log(originPATH.join('/'));
+        	window.location.pathname = originPATH.join('/'); 
+        	}());">Bookmark This Link</a>
+    </div>
+</body>
