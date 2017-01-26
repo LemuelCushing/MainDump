@@ -1,6 +1,11 @@
 <meta charset="utf-8" lang="en"><style class="fallback">body{visibility:hidden;}</style>
 
-![](http://loremflickr.com/g/2000/100/newspapers,history/all?random=2)
+<!-- <a id="refresh" href="#"> -->
+<div id="1" class="img">
+<img src="http://loremflickr.com/g/700/100/newspapers,history/all?random=">
+</div>
+<!-- ![](http://loremflickr.com/g/2000/100/newspapers,history/all?random=2) -->
+<!-- </a> -->
 
 # Primary Sources Search
 
@@ -17,7 +22,9 @@
 
 [עיתונות יהודית היסטורית](http://web.nli.org.il/sites/JPress/Hebrew/Pages/default.aspx)
 
-![](http://loremflickr.com/g/1000/100/newspapers,history/all?random=2)
+<div id="2" class="img">
+<img src="http://loremflickr.com/g/1000/100/newspapers,history/all?random=2">
+</div>
 
 [New York Times Article Archive - NYTimes.com](http://www.nytimes.com/ref/membercenter/nytarchive.html)
 
@@ -25,8 +32,9 @@
 
 [Google News Archive Search](https://news.google.com/newspapers)
 
-![](http://loremflickr.com/g/1000/100/newspapers/all?random=1)
-
+<div id="3" class="img">
+<img src="http://loremflickr.com/g/1000/100/newspapers/all?random=1">
+</div>
 
 [Mapping Texts](http://mappingtexts.org/)
      
@@ -34,8 +42,42 @@
 
 [Corpus Analysis with Antconc - Programming Historian](http://programminghistorian.org/lessons/corpus-analysis-with-antconc)
 
-![](http://loremflickr.com/g/1000/100/news,history/all?random=1)
+<div id="4" class="img">
+<img src="http://loremflickr.com/g/1000/100/news,history/all?random=1">
+</div>
 
 [Presentation Outline](./index.html)
 
-<!-- Markdeep: --><style class="fallback">body{visibility:hidden;}</style><script src="markdeep.min.js"></script>
+<!-- Markdeep: --><style class="fallback">body{visibility:hidden;}</style><script src="markdeep.min.js">
+</script>
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+<script>
+  $(".img").click(function(){
+    var categories = "";
+    switch(this.id){
+      case "1": categories = "news,history";
+      break;
+      case "2": categories = "newspaper,archive";
+      break;
+      case "3": categories = "jewish,newspaper,history";
+      break;
+      case "4": categories = "archive,history,newspaper";
+      break;
+    }
+    // console.log(picNum);
+    // jQuery.get('<img src="http://loremflickr.com/g/700/100/'+categories+'/all?random=">',function(data){
+      // $("#1").append(data)
+    // })
+    $(this).fadeOut("slow",function(){
+      $(this).html('<img src="http://loremflickr.com/g/700/100/'+categories+'/all?random=">').fadeIn("slow");});
+  });
+    // $(function() {
+    //   $("#refresh").click(function() {
+    //      $("#img1").html("![](http://loremflickr.com/g/2000/100/newspapers,history/all?random=2)")
+    //      // evt.preventDefault();
+    //   })
+    // })
+</script>
