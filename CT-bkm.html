@@ -29,9 +29,17 @@ javascript:(function()%7Bfunction%20callback()%7B(function()%7Bvar%20msg%20%3D%2
 </html>
         <!-- <a style="font-size: 22px; color:white;"  href="javascript:(function()%7B(function()%7Bvar%20originPATH%20%3D%20window.location.pathname.split('%2F')%3Bvar%20targetPATH%20%3D%20originPATH.splice(originPATH.lastIndexOf('page')%2B2%2C2%2C'xxlarge.jpg')%3Bconsole.log(originPATH.join('%2F'))%3Bwindow.location.pathname%20%3D%20originPATH.join('%2F')%3B%7D())%7D)();">Bookmark This Link</a> -->
 
-<!-- javascript:(function(){
+<!-- (function(){
+    var msg =
+    "<p>It don't make sense here. <br> 
+    Try again when <a href='http://archives.chicagotribune.com/1876/09/15/page/8/article/go-west-young-man'>you're out west</a>!</p>";
+    let originalURL = window.location.origin;
+    if (originalURL == 'http://archives.chicagotribune.com' ) {
     var originPATH = window.location.pathname.split('/');
     var targetPATH = originPATH.splice(originPATH.lastIndexOf('page')+2,2,'xxlarge.jpg');
     console.log(originPATH.join('/'));
-    window.location.pathname = originPATH.join('/'); 
-    }());" -->
+    window.location.pxathname = originPATH.join('/'); 
+    } else{
+        alertify.alert(msg);
+    }
+    }()); -->
