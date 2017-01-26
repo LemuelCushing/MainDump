@@ -31,4 +31,4 @@
 [Corpus Analysis with Antconc - Programming Historian](http://programminghistorian.org/lessons/corpus-analysis-with-antconc)
 
 ---
-[Presentation Outline](/outline)
+[Presentation Outline](./outline.html)
