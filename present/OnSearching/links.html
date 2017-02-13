@@ -1,7 +1,11 @@
-<meta charset="utf-8" lang="en"><style class="fallback">body{visibility:hidden;}</style>
 
+<meta charset="utf-8" lang="en"><style class="fallback">body{visibility:hidden;}</style>
+<!-- <script src="./script.js"> </script> -->
+
+<button class="btn">Test</button>
+<div id="bob">Bob!</div>
 <!-- <a id="refresh" href="#"> -->
-<div id="1" class="img">
+<div id="1" class="imgClick">
 <img src="https://loremflickr.com/g/700/100/newspapers,history/all?random=">
 </div>
 <!-- ![](https://loremflickr.com/g/2000/100/newspapers,history/all?random=2) -->
@@ -22,7 +26,7 @@
 
 [עיתונות יהודית היסטורית](https://web.nli.org.il/sites/JPress/Hebrew/Pages/default.aspx)
 
-<div id="2" class="img">
+<div id="2" class="imgClick">
 <img src="https://loremflickr.com/g/1000/100/newspapers,history/all?random=2">
 </div>
 
@@ -32,7 +36,7 @@
 
 [Google News Archive Search](https://news.google.com/newspapers)
 
-<div id="3" class="img">
+<div id="3" class="imgClick">
 <img src="https://loremflickr.com/g/1000/100/newspapers/all?random=1">
 </div>
 
@@ -42,43 +46,21 @@
 
 [Corpus Analysis with Antconc - Programming Historian](https://programminghistorian.org/lessons/corpus-analysis-with-antconc)
 
-<div id="4" class="img">
+<div id="4" class="imgClick">
 <img src="https://loremflickr.com/g/1000/100/news,history/all?random=1">
 </div>
 
 [Presentation Outline](./index.html)
 
+
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;}</style><script src="markdeep.min.js">
 </script>
-<script
-  src="https://code.jquery.com/jquery-3.1.1.min.js"
-  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-  crossorigin="anonymous"></script>
-<script>
-  $(".img").click(function(){
-    var categories = "";
-    switch(this.id){
-      case "1": categories = "news,history";
-      break;
-      case "2": categories = "newspaper,archive";
-      break;
-      case "3": categories = "jewish,newspaper,history";
-      break;
-      case "4": categories = "archive,history,newspaper";
-      break;
-    }
-    // console.log(picNum);
-    // jQuery.get('<img src="https://loremflickr.com/g/700/100/'+categories+'/all?random=">',function(data){
-      // $("#1").append(data)
-    // })
-    console.log("bob");
-    $(this).fadeOut("slow",function(){
-      $(this).html('<img src="https://loremflickr.com/g/700/100/'+categories+'/all?random=">').fadeIn(3000);});
-  });
-    // $(function() {
-    //   $("#refresh").click(function() {
-    //      $("#img1").html("![](https://loremflickr.com/g/2000/100/newspapers,history/all?random=2)")
-    //      // evt.preventDefault();
-    //   })
-    // })
+<script type="text/javascript">
+function logBob(){
+  console.log("bob!!");
+}
+  var a = document.getElementsByClassName("btn");
+  a[0].addEventListener('click', logBob, false);
+  // document.getElementById("bob")[0].innerHTML = "string";
+
 </script>
