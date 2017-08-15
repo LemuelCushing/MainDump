@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title></title>
+    <title>Spraying Report</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -17,10 +17,7 @@
             font-weight: 400;
             text-rendering: optimizeLegibility;
         }
-        #spraying-table {
-            float: center;
-            position: relative;
-        }
+
         div.table-title {
             display: block;
             margin: auto;
@@ -55,12 +52,12 @@
 
         th {
             color: #0B6303;
-            ;
             background: #8fc400;
             border-bottom: 1px solid #9ea7af;
             border-right: 1px solid #343a45;
             font-size: 23px;
-            font-weight: 100;
+            font-weight: 400;
+            /* margin-right: 150px; */
             padding: 24px;
             text-align: left;
             text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
@@ -78,31 +75,33 @@
         }
 
         tr {
-            border-top: 1px solid #C1C3D1;
-            border-bottom-: 1px solid #C1C3D1;
+            border-top: 0.5px solid #C1C3D1;
             color: #666B85;
             font-size: 16px;
             font-weight: normal;
             text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+            border-bottom: 0.5px solid #22262e;
         }
 
         tr:hover td:not(#notes) {
             background: #4E5066;
             color: #FFFFFF;
-            border-top: 1px solid #22262e;
-            border-bottom: 1px solid #22262e;
         }
 
         tr:first-child {
-            border-top: none;
+            border-top: 0.5px solid #22262e;
         }
 
         tr:last-child {
-            border-bottom: none;
+            border-top: 0.5px solid #22262e;
         }
 
         tr:nth-child(odd) td {
             background: #EBEBEB;
+        }
+
+        tr:nth-child(even) td {
+            background: #E4E4E4;
         }
 
         tr:nth-child(odd):hover td {
@@ -142,9 +141,9 @@
 
         th[role=columnheader]:not(.no-sort):after {
             content: '';
-            float: right;
-            margin-top: 12px;
-            margin-left: 5px;
+            float: none;
+            /* margin-top: 7px; */
+            /* margin-left: 15px; */
             border-width: 0px 4px 4px;
             border-style: solid;
             border-color: #404040 transparent;
@@ -181,13 +180,17 @@
         
         #notes-table {
             background-color: rgba(0, 0, 0, 0.23);
-            width: 750px;
+            width: 800px;
             float: center;
-            margin-top: 20px;
+            position: relative;
+            margin: 20px;
         }
+        
         #spraying-table {
+            float: center;
+            position: relative;
             background-color: rgba(0, 0, 0, 0.23);
-            width: 750px;
+            width: 800px;
         }
     </style>
 
@@ -215,7 +218,7 @@
                 <th>Material</th>
                 <th>Dosage</th>
                 <th data-sort-method='number'>Volume</th>
-                <th data-sort-method='number'>Observation</th>
+                <th>Observation</th>
                 <th data-sort-method='number'>Return</th>
                 <th data-sort-method='number'>Cost</th>
             </tr>
@@ -223,7 +226,7 @@
                 <td>Battus</td>
                 <td>0.175 un/ha</td>
                 <td>70 liters</td>
-                <td>nautiliform postgeniture maledicent leucocarpous geopolitic uteroplasty indigene naphthalin perspectograph cystogenous subtilist bronco capercut </td>
+                <td>Magna orci hac</td>
                 <td>$6.4</td>
                 <td>$8.60</td>
             </tr>
@@ -231,7 +234,7 @@
                 <td>Dash</td>
                 <td>0.15 un/ha</td>
                 <td>60 liters</td>
-                <td>annotation pleiochromia rachitogenic agrologically salaciousness aigialosaur gynostegium otherwhence Suiogoth trothplight astringe racemize nonhomogenous </td>
+                <td>Suscipit dui mattis</td>
                 <td>$3.19</td>
                 <td>$19.36</td>
             </tr>
@@ -239,7 +242,7 @@
                 <td>HEAT</td>
                 <td>0.07 un/ha</td>
                 <td>28 liters</td>
-                <td>Iowan welder tabitude rebloom titeration demonstratable blodite revindication hematuria unpresumable leucoma oesophagostomiasis witlessness </td>
+                <td>Mattis mi pharetra purus faucibus</td>
                 <td>$2.51</td>
                 <td>$2.40</td>
             </tr>
@@ -247,7 +250,7 @@
                 <td>Malathion-Ai</td>
                 <td>0.99 un/ha</td>
                 <td>400 liters</td>
-                <td>taistrel manganophyllite tapirine slavey unalterability magician whame twigwithy unofficed crystalloid gastrovascular metreship inconnected </td>
+                <td>Arcu gravida</td>
                 <td>$4.27</td>
                 <td>$24.10</td>
             </tr>
@@ -255,13 +258,13 @@
                 <td>Marshal star</td>
                 <td>0.25 un/ha</td>
                 <td>100 liters</td>
-                <td>gynocardic ancoral mushiness overexpenditure undiligent admix celled basehearted fractionization unspitted moorishly unvoidable disguisal </td>
+                <td>At tempus odio</td>
                 <td>$5.73</td>
                 <td>$8.32</td>
             </tr>
         </table>
 
-        <table id="notes-table">
+        <table id="notes-table" class="no-sort">
             <tr>
                 <th>Notes</th>
             </tr>
@@ -271,7 +274,7 @@
         </table>
 
         <p style='width: 100%; margin: 50px 0 0; text-align: center;'>
-            ${footer}
+            This report was created by the AgriTask agronomic management system. <br> You can find this information online, at
             <a href="http://www.agritask.com" target="_blank">www.agritask.com</a>
         </p>
     </div>
