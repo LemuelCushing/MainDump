@@ -65,7 +65,7 @@ On May 2018, a key Senate committee set aside half a million dollars to support 
 | Massachusetts |           |
 | Minnesota     |           |
 | Nevada        |           |
-| North Dakota  | [Industrial Hemp | North Dakota Department of Agriculture](https://www.nd.gov/ndda/plant-industries/industrial-hemp) <br> 35 licensed hemp growers & 1 licensed hemp processor [(source)](https://hempindustrydaily.com/hemp-state-highlight-north-dakota-growing-lots-hemp-market-potential-limited/) <br> [Industrial Hemp Performance - 2015 research](https://industrialhemp.ces.ncsu.edu/wp-content/uploads/2016/10/Industrial-Hemp-Variety-Trials-FR-revised-Feb2-2016-1.pdf?fwd=no) |
+| North Dakota  | [Industrial Hemp - North Dakota Department of Agriculture](https://www.nd.gov/ndda/plant-industries/industrial-hemp) <br> 35 licensed hemp growers & 1 licensed hemp processor [(source)](https://hempindustrydaily.com/hemp-state-highlight-north-dakota-growing-lots-hemp-market-potential-limited/) <br> [Industrial Hemp Performance - 2015 research](https://industrialhemp.ces.ncsu.edu/wp-content/uploads/2016/10/Industrial-Hemp-Variety-Trials-FR-revised-Feb2-2016-1.pdf?fwd=no) |
 | Oregon        | [List of Licence holders](http://oda.state.or.us/dbs/licenses/hitlist.lasso?&sql=6743b0d23abf4a612b6379b6763bd6428dfd8ebceebdf968d26f38e8729c65dca5dcb9b8b184e1340c62e3ab674e8f4dec2febc21cbb51dd94324b53c29049b43796621f739b3dee5f152ecdf121d34cab5f212f2297aa056f17d7df51f51a76ab2bd340b87ef2fd46f8da635744af3f034bff75564a21e571ebe732cde7b0baefc3a28c2cd710261acd44732c8e32c3cd114c5300fee8188bad47785a89588b9f675414c4166c3f6f2934719c2cc556be0a8217a32ad0c05317628ba44500f800faaaa7dd3f2e48&license_type=All%20CID%20Licenses&-basic_system_title=Active%20Registrations%20or%20Licenses&-division=cid) <br> [Oregon Industrial Hemp Farmers Association](http://oregonhempfarmers.com/) <br>        |
 | South Carolina|           |
 | Tennessee     |           |
@@ -80,6 +80,7 @@ On May 2018, a key Senate committee set aside half a million dollars to support 
 ### Hawaii:
 
 The state has issued its first three licenses to hemp growers in Hawaii as part of its Industrial Hemp Pilot Program.
+
 In June, the Hawaii Department of Agriculture issued industrial hemp licenses to Gail Baber and Thomas Pace of Hawaii island, and Raymond Maki of Kauai, each of whom have 10 acres to grow the hemp seed variety, Yuma, imported from China, state officials said today. (July 6, 2018)
 
 Industrial hemp growers will be required to submit extensive reports on planting, harvesting and movement of their industrial hemp crop. They must also track production costs, including pest management, water usage, security measures, labor, marketing and other factors, state officials said. The plants also must be tested for THC and pesticides, and inspections are mandatory.
@@ -89,8 +90,8 @@ Since the program began in April, the state has received 10 applications. The ag
 # Outside the US:
 
 [Countries Where Hemp is Grown](https://nationalhempassociation.org/countries-where-hemp-is-grown/)
-Here is a quick list of countries that it is legal to grow hemp. Growing hemp in the United States is still for the most part illegal
 
+Here is a quick list of countries that it is legal to grow hemp. Growing hemp in the United States is still for the most part illegal
 
 AUSTRALIA and NEW ZEALAND  allows research crops. And in Victoria, Australia commercial production is now licensed.
 
@@ -187,5 +188,7 @@ UNITED STATES Colorado, Kentucky, Tennessee,Vermont, and Oregon have begun to gr
 #### Possible leads:
 
 [Colorado Active Industrial Hemp Registrants](https://drive.google.com/file/d/1DlKqzhJo1vRe8SeGkHb9_cajhWZ7cv2h/view)
+
 [List of European suppliers](http://eiha.org/suppliers/)
+
 [Down in Argentina?](https://nationalhempassociation.org/forums/topic/looking-for-hemp-farmers/)
